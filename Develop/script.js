@@ -12,6 +12,8 @@ var specialChar = ["\U0020", "\U0021", "\U0022", "U0023", "\U0024", "\U0025", "\
 minLength = [8];
 maxLength = [128];
 
+var passwordArray = [];
+
 // Write password to the #password input
 function writePassword() {
   
@@ -19,6 +21,48 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
+
+}
+//Create a function called generatePassword
+function generatePassword () {
+  //Create a series of prompts
+  var length = prompt("Choose a Password which is between 8 and 128 characters in length");
+  console.log(length)
+
+  if (length < 8 || length > 128) {
+    alert("Password length inadequate!");
+    generatePassword ();
+  }
+
+  var lowerCaseConfirm = confirm("Would you like to use lower case letters?");
+  console.log(lowerCaseConfirm)
+
+  var upperCaseConfirm = confirm("Would you like to use upper case letters?");
+  console.log(upperCaseConfirm)
+
+  var numberConfirm = confirm("Would you like to use numbers?");
+  console.log(numberConfirm)
+
+  var specialCharConfirm = confirm ("Would you like to use special characters?");
+  console.log(specialCharConfirm)
+
+//Create for loop after what user wants is known
+
+  if (lowerCaseConfirm) {
+
+  }
+
+  if (upperCaseConfirm) {
+
+  }
+
+  if (numberConfirm) {
+
+  }
+
+  if (specialCharConfirm) {
+
+  }
 
 }
 
