@@ -41,10 +41,16 @@ THEN I select which criteria to include in the password
 
 WHEN I answer each prompt
 THEN my input should be validated and at least one character type should be selected
+
+* Created if and else if statements
+
 WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
+
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+
+*had to fix lines 36,37 and 49,50 with a return to end function and get correct alert message
 ```
 
 ## Mock-Up
@@ -53,51 +59,41 @@ The following image shows the web application's appearance and functionality:
 
 ![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
 
-## Grading Requirements
+##
 
-This homework is graded based on the following criteria: 
+* ✅Satisfies all of the preceding acceptance criteria plus the following:
 
-### Technical Acceptance Criteria: 40%
+* ✅The homework should not produce any errors in the console when you inspect it using Chrome DevTools.
 
-* Satisfies all of the preceding acceptance criteria plus the following:
+* ✅Application deployed at live URL.
 
-  * The homework should not produce any errors in the console when you inspect it using Chrome DevTools.
+* ✅Application loads with no errors.
 
-### Deployment: 32%
+* ✅Application GitHub URL submitted.
 
-* Application deployed at live URL.
+* ✅GitHub repository that contains application code.
 
-* Application loads with no errors.
+* ✅Application user experience is intuitive and easy to navigate.
 
-* Application GitHub URL submitted.
+* ✅Application user interface style is clean and polished.
 
-* GitHub repository that contains application code.
+* ✅Application resembles the mock-up functionality provided in the homework instructions.
 
-### Application Quality: 15%
+* ✅Repository has a unique name.
 
-* Application user experience is intuitive and easy to navigate.
+* ✅Repository follows best practices for file structure and naming conventions.
 
-* Application user interface style is clean and polished.
+* ✅Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
 
-* Application resembles the mock-up functionality provided in the homework instructions.
+* ✅Repository contains multiple descriptive commit messages.
 
-### Repository Quality: 13%
+* ✅Repository contains quality readme file with description, screenshot, and link to deployed application.
 
-* Repository has a unique name.
+    
 
-* Repository follows best practices for file structure and naming conventions.
+- ✅You are required to submit the following for review:
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+* ✅The URL of the deployed application.
 
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
+* ✅The URL of the GitHub repository, with a unique name and a readme describing the project.
 
