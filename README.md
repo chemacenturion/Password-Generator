@@ -17,15 +17,28 @@ SO THAT I can create a strong password that provides greater security
 ## Acceptance Criteria
 
 ```
+WHEN prompted for character types to include in the password
+THEN I choose lowercase, uppercase, numeric, and/or special characters
+
+* To satisfy this criteria I created the arrays "lowerCase", "upperCase", "number", and "specialChar";
+
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
 THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
+
+* generateBtn was already provided for us.
+
 WHEN prompted for the length of the password
 THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
+
+* Created two variables minLength and maxLength to refer to as parameters which to work within for later if statements
+  * Used if statement on line 32 to create required length and to signal alert if user selection is inadequate.
+
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+
+*Created a #prompt for length and a series of #confirms for user selection pertaining to the password criteria desired.
+
 WHEN I answer each prompt
 THEN my input should be validated and at least one character type should be selected
 WHEN all prompts are answered
@@ -88,5 +101,3 @@ You are required to submit the following for review:
 
 * The URL of the GitHub repository, with a unique name and a readme describing the project.
 
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
