@@ -1,7 +1,11 @@
 # 03 JavaScript: Password Generator
 
+*The goal with this homework is to create a password generator which allows a user to navigate through different prompts on screen and produce a password
+according to their prompt selections.
 
-```
+*The goal is to generate a random password between 8 and 128 characters in length with no console issues and no navigational issues for the user that will not allow them to operate
+outside the required selections.
+
 WHEN prompted for character types to include in the password
 THEN I choose lowercase, uppercase, numeric, and/or special characters
 
@@ -36,7 +40,7 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
 *had to fix lines 36,37 and 49,50 with a return to end function and get correct alert message
-```
+
 
 ## Mock-Up
 
