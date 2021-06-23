@@ -132,6 +132,7 @@ function generatePassword () {
   var passwordText = document.querySelector("#password");
   finalpassword = passwordArray.join('');
   passwordText.value = finalpassword;
+  passwordArray = [];
 };
 
 // Add event listener to generate button
