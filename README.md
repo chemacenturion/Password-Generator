@@ -16,6 +16,9 @@ This is a password generator. When clicking the generate password button a serie
 * CSS
 * JavaScript
 
+# Screenshot
+![Password-Generator](https://github.com/chemacenturion/Portfolio-v2/blob/main/assets/images/Portfolio-v2.gif?raw=true)
+
 # Contact
 
 José María Centurión( centurion.philadelphia@gmail.com )
