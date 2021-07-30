@@ -17,7 +17,7 @@ This is a password generator. When clicking the generate password button a serie
 * JavaScript
 
 # Screenshot
-![Password-Generator](https://github.com/chemacenturion/Portfolio-v2/blob/main/assets/images/Portfolio-v2.gif?raw=true)
+![Password-Generator](https://github.com/chemacenturion/Password-Generator/blob/main/Assets/Password%20Generator.gif?raw=true)
 
 # Contact
 
