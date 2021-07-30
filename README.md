@@ -15,3 +15,7 @@ This is a password generator. When clicking the generate password button a serie
 * HTML
 * CSS
 * JavaScript
+
+# Contact
+
+José María Centurión( centurion.philadelphia@gmail.com )
